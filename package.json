@@ -1,0 +1,26 @@
+{
+  "name": "Game-Off-2018",
+  "version": "1.0.0",
+  "description": "Project to Github Game Off 2018 jam",
+  "main": "index.js",
+  "repository": "https://github.com/iamPedroVictor/Game-Off-2018.git",
+  "author": "Pedro Victor <pedro.victor.ferreira@outlook.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "devDependencies": {
+    "babel-core": "6",
+    "babel-loader": "7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack": "4.0.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "phaser": "^3.15.1"
+  }
+}
